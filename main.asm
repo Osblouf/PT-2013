@@ -60,7 +60,7 @@ main:
 ; -- Gestion des interruptions --
 ; -------------------------------
 irq_handle:
-    btfsc   PIR1, RC1F ; -- test de l'interruption de réception
+    btfsc   PIR1, RCIF ; -- test de l'interruption de réception
     goto    interruption_reception
     retfie
 

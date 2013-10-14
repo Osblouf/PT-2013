@@ -46,7 +46,6 @@ start:
 
     ; -- gestion des interruptions sur le port série activé
     bsf     INTCON, GIE
-    bcf     PIR1, RC1F
     bsf     STATUS, RP0 ; -- bank 1
     bsf     PIE1, PC1E
     bcf     STATUS, RP0 ; -- bank 0

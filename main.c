@@ -35,7 +35,7 @@ short int bo = 0;
 #INT_RTCC 
 void RTCC_isr(void) { 
    set_timer0(193);
-   if bo == 0
+   if (bo == 0)
    {
      output_high(PIN_OUTPUT_80HZ);
      bo = 1;
@@ -54,7 +54,7 @@ void main(void)
   char c;
   
   //Gestion des interruptions d tmr0
-  setup_timer_0(RTCC_EXT_L_TO_H|RTTC_8_BIT|RTCC_DIV_1); 
+  setup_timer_0(RTCC_EXT_L_TO_H|RTCC_8_BIT|RTCC_DIV_1); 
   enable_interrupts(INT_RTCC); 
   enable_interrupts(GLOBAL); 
   

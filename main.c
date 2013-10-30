@@ -1,3 +1,7 @@
+/*
+  POUR INFO SUR CCS : http://www.personal.rdg.ac.uk/~stsgrimb/teaching/programming_pic_microcontrollers.pdf
+  
+*/
 #include <16F877A.h>
 
 #device adc=8
@@ -12,21 +16,47 @@
 #FUSES NOCPD      //No EE protection
 
 //utilisation du RS232
-#use delay(clock=8000000) //fréquence
+#use delay(clock=20000000) //fréquence
 #use rs232(baud=57600,parity=N,xmit=PIN_C6,rcv=PIN_C7,bits=8)
 
 //definition de la pin output
 #define PIN_OUTPUT_LED PIN_C2
+#define PIN_OUTPUT_80HZ PIN_C3
 
 //fonction d'envoi RC5
 void RC5(char c);
 void LED_1(void);
 void LED_0(void);
 
+//variable globale
+short int bo = 0;
+
+//fonction des interruptions
+#INT_RTCC 
+void RTCC_isr(void) { 
+   set_timer0(193);
+   if bo == 0
+   {
+     output_high(PIN_OUTPUT_80HZ);
+     bo = 1;
+   }
+   else
+   {
+     output_low(PIN_OUTPUT_80HZ);
+     bo = 1;
+   }
+}
+
+//fonction main
 void main(void)
 {
   //ressources
   char c;
+  
+  //Gestion des interruptions d tmr0
+  setup_timer_0(RTCC_EXT_L_TO_H|RTTC_8_BIT|RTCC_DIV_1); 
+  enable_interrupts(INT_RTCC); 
+  enable_interrupts(GLOBAL); 
   
   //pin output à 1 (led éteinte)
   output_high(PIN_OUTPUT_LED);
@@ -99,6 +129,8 @@ void RC5(char c)
     LED_1();
   else
     LED_0();
+    
+  output_high(PIN_OUTPUT_LED);
   
 }
 

@@ -1,0 +1,9 @@
+c:\users\alex\documents\visual studio 2012\Projects\PT_2013\IRtransmitter\IRtransmitter\bin\Debug\IRtransmitter.exe.config
+c:\users\alex\documents\visual studio 2012\Projects\PT_2013\IRtransmitter\IRtransmitter\bin\Debug\IRtransmitter.exe
+c:\users\alex\documents\visual studio 2012\Projects\PT_2013\IRtransmitter\IRtransmitter\bin\Debug\IRtransmitter.pdb
+c:\users\alex\documents\visual studio 2012\Projects\PT_2013\IRtransmitter\IRtransmitter\obj\Debug\IRtransmitter.csprojResolveAssemblyReference.cache
+c:\users\alex\documents\visual studio 2012\Projects\PT_2013\IRtransmitter\IRtransmitter\obj\Debug\IRtransmitter.Form1.resources
+c:\users\alex\documents\visual studio 2012\Projects\PT_2013\IRtransmitter\IRtransmitter\obj\Debug\IRtransmitter.Properties.Resources.resources
+c:\users\alex\documents\visual studio 2012\Projects\PT_2013\IRtransmitter\IRtransmitter\obj\Debug\IRtransmitter.csproj.GenerateResource.Cache
+c:\users\alex\documents\visual studio 2012\Projects\PT_2013\IRtransmitter\IRtransmitter\obj\Debug\IRtransmitter.exe
+c:\users\alex\documents\visual studio 2012\Projects\PT_2013\IRtransmitter\IRtransmitter\obj\Debug\IRtransmitter.pdb

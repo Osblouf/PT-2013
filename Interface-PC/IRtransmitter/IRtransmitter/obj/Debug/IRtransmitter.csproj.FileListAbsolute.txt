@@ -7,3 +7,12 @@ c:\users\alex\documents\visual studio 2012\Projects\PT_2013\IRtransmitter\IRtran
 c:\users\alex\documents\visual studio 2012\Projects\PT_2013\IRtransmitter\IRtransmitter\obj\Debug\IRtransmitter.csproj.GenerateResource.Cache
 c:\users\alex\documents\visual studio 2012\Projects\PT_2013\IRtransmitter\IRtransmitter\obj\Debug\IRtransmitter.exe
 c:\users\alex\documents\visual studio 2012\Projects\PT_2013\IRtransmitter\IRtransmitter\obj\Debug\IRtransmitter.pdb
+D:\GitHub\PT-2013\Interface-PC\IRtransmitter\IRtransmitter\bin\Debug\IRtransmitter.exe.config
+D:\GitHub\PT-2013\Interface-PC\IRtransmitter\IRtransmitter\obj\Debug\IRtransmitter.exe
+D:\GitHub\PT-2013\Interface-PC\IRtransmitter\IRtransmitter\obj\Debug\IRtransmitter.pdb
+D:\GitHub\PT-2013\Interface-PC\IRtransmitter\IRtransmitter\bin\Debug\IRtransmitter.exe
+D:\GitHub\PT-2013\Interface-PC\IRtransmitter\IRtransmitter\bin\Debug\IRtransmitter.pdb
+D:\GitHub\PT-2013\Interface-PC\IRtransmitter\IRtransmitter\obj\Debug\IRtransmitter.csprojResolveAssemblyReference.cache
+D:\GitHub\PT-2013\Interface-PC\IRtransmitter\IRtransmitter\obj\Debug\IRtransmitter.Form1.resources
+D:\GitHub\PT-2013\Interface-PC\IRtransmitter\IRtransmitter\obj\Debug\IRtransmitter.Properties.Resources.resources
+D:\GitHub\PT-2013\Interface-PC\IRtransmitter\IRtransmitter\obj\Debug\IRtransmitter.csproj.GenerateResource.Cache
